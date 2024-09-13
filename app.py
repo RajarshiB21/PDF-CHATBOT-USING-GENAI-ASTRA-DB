@@ -7,9 +7,9 @@ from langchain.text_splitter import CharacterTextSplitter
 import cassio
 from PyPDF2 import PdfReader
 
-ASTRA_DB_APPLICATION_TOKEN = "AstraCS:lgvFFEbTNKTmXmknriQMvjdR:66000d773f7fd4eefba8c0e9c5b7e61b0aa2aa399188b34bbd8e9fc5962ee1ee"
-ASTRA_DB_ID = "7d990bfc-85e4-41fc-b741-c71e46e089ff"
-OPENAI_API_KEY = "sk-WjPkOp7j57utWsdNJSrK5EJJhziXY8eIYtRTEqID8IT3BlbkFJm3Suq9pky-YXTdOM352gQG2vt5Q_Sfah97SHS_e0sA"
+ASTRA_DB_APPLICATION_TOKEN = ""
+ASTRA_DB_ID = ""
+OPENAI_API_KEY = ""
 
 llm = OpenAI(openai_api_key=OPENAI_API_KEY)
 embedding = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
