@@ -1,8 +1,12 @@
 # PDF Query App
 
+[![Deploy on Hugging Face Spaces](https://img.shields.io/badge/Deploy%20on%20Hugging%20Face%20Spaces-https%3A%2F%2Fhuggingface.co%2Fspaces%2FRajarshi997%2FChatPDFAstraDB%3Flogs%3Dbuild-blue)](https://huggingface.co/spaces/Rajarshi997/ChatPDFAstraDB)
+
 ## Overview
 
 The PDF Query App is a web application built using Streamlit and LangChain that allows users to upload PDF files, extract text from them, and perform similarity-based queries to find relevant information. The application leverages OpenAI's embeddings and language models to understand and respond to user queries based on the contents of the uploaded PDFs.
+
+This app is deployed on [Hugging Face Spaces](https://huggingface.co/spaces/Rajarshi997/ChatPDFAstraDB).
 
 ## Features
 
